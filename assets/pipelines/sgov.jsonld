@@ -131,7 +131,7 @@ OR předmět činnosti společnosti -> SSP FULL lvř:má-předmět-činnosti""";
     <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-httpGetFiles/0.0.0>;
     <http://linkedpipes.com/ontology/x> -1719;
-    <http://linkedpipes.com/ontology/y> 372;
+    <http://linkedpipes.com/ontology/y> 396;
     <http://purl.org/dc/terms/description> "Akciové společnosti";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "HTTP get list" .
   
@@ -156,6 +156,7 @@ OR předmět činnosti společnosti -> SSP FULL lvř:má-předmět-činnosti""";
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/113> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/221>;
+    <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0>;
     <http://linkedpipes.com/ontology/x> -2236;
     <http://linkedpipes.com/ontology/y> 183;
@@ -164,6 +165,7 @@ OR předmět činnosti společnosti -> SSP FULL lvř:má-předmět-činnosti""";
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/115> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/graph/201>;
+    <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0>;
     <http://linkedpipes.com/ontology/x> -2241;
     <http://linkedpipes.com/ontology/y> 3;
@@ -292,7 +294,7 @@ TODO - reprezentuje adresy jen jako LOZ adresy. Je nutno ty české reprezentova
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/5>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6272-83a7> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1f69-a4bc> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/5> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ebffcc";
@@ -305,7 +307,7 @@ TODO - reprezentuje adresy jen jako LOZ adresy. Je nutno ty české reprezentova
     <http://www.w3.org/2004/02/skos/core#note> "Vyrábí číselník předmětů činnosti na základě obsahu OR";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6272-83a7>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1f69-a4bc>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> -278;
@@ -334,9 +336,10 @@ TODO - reprezentuje adresy jen jako LOZ adresy. Je nutno ty české reprezentova
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/20> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/graph/182>;
+    <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-xslt/0.0.0>;
     <http://linkedpipes.com/ontology/x> -1073;
-    <http://linkedpipes.com/ontology/y> 71;
+    <http://linkedpipes.com/ontology/y> 72;
     <http://purl.org/dc/terms/description> "Akciové společnosti";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "XSLT transformer" .
   
@@ -417,9 +420,9 @@ Vymazané společnosti""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/108>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/147>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/fe1c-afc5> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5c33-ac9b> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/fe1c-afc5>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5c33-ac9b>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 809;
@@ -430,7 +433,7 @@ Vymazané společnosti""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/17>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/147>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/04b9-bb8a> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/243e-8b60> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/17> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ccf5ff";
@@ -443,7 +446,7 @@ sídlo společnosti -> SSP FULL lvř:má-sídlo-zapsané-osoby""";
     <http://www.w3.org/2004/02/skos/core#note> "Převádí datovou strukturu pro sídla zapsaných společností z OR do datové struktury  lvř:má-sídlo-zapsané-osoby v SSP FULL vyjádření.";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/04b9-bb8a>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/243e-8b60>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 803;
@@ -454,9 +457,9 @@ sídlo společnosti -> SSP FULL lvř:má-sídlo-zapsané-osoby""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/103>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/147>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1fe7-a598> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0a9d-acf7> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1fe7-a598>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0a9d-acf7>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 809;
@@ -473,9 +476,9 @@ sídlo společnosti -> SSP FULL lvř:má-sídlo-zapsané-osoby""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/104>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/147>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4a31-83e3> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0e7b-9fbb> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4a31-83e3>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0e7b-9fbb>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 805;
@@ -492,7 +495,7 @@ sídlo společnosti -> SSP FULL lvř:má-sídlo-zapsané-osoby""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/49>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/145>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0676-bcbf> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/58f1-afbc> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/49> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ccf5ff";
@@ -505,7 +508,7 @@ OR IC společnosti -> SSP FULL lvř:identifikační-číslo-osoby""";
     <http://www.w3.org/2004/02/skos/core#note> "Převádí datovou strukturu pro IČ obchodních společností z OR do vlastnosti typu lvř:identifikační-číslo-osoby v SSP FULL vyjádření.";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0676-bcbf>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/58f1-afbc>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 929;
@@ -528,7 +531,7 @@ OR IC společnosti -> SSP FULL lvř:identifikační-číslo-osoby""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/70>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/145>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8f71-9935> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ed71-8ca2> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/70> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ccf5ff";
@@ -541,7 +544,7 @@ OR název společnosti -> SSP FULL lok:firma-obchodní-korporace""";
     <http://www.w3.org/2004/02/skos/core#note> "Převádí datovou strukturu pro názvy obchodních společností z OR do vlastnosti typu lok:firma-obchodní-korporace v SSP FULL vyjádření.";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8f71-9935>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ed71-8ca2>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 925;
@@ -808,7 +811,7 @@ statutární orgán společnosti -> SSP FULL lvř:statutární-orgán""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/62>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a048-b021> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb55-a395> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/62> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ebffcc";
@@ -821,7 +824,7 @@ statutární orgán společnosti -> SSP FULL lvř:statutární-orgán""";
     <http://www.w3.org/2004/02/skos/core#note> "Vyrábí číselník systémů vnitřní struktury na základě obsahu OR";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a048-b021>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb55-a395>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> -209;
@@ -976,7 +979,7 @@ l:akcie-na-majitele""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/84>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/adfa-ae09> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e4aa-8f94> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/84> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ebffcc";
@@ -989,7 +992,7 @@ l:akcie-na-majitele""";
     <http://www.w3.org/2004/02/skos/core#note> "Vyrábí číselník předmětů právních forem na základě obsahu OR";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/adfa-ae09>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e4aa-8f94>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> -239;
@@ -997,6 +1000,7 @@ l:akcie-na-majitele""";
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/87> a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/208>;
+    <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0>;
     <http://linkedpipes.com/ontology/x> -2193;
     <http://linkedpipes.com/ontology/y> 99;
@@ -1063,9 +1067,9 @@ SSP FULL typ lvř:akciová-společnost""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/45>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b346-87bc> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/df15-89e5> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b346-87bc>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/df15-89e5>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> -314;
@@ -1116,6 +1120,15 @@ Typ loz:sídlo""";
     <http://linkedpipes.com/ontology/y> -1017;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct chunked" .
   
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/3f93-9ae6>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/3f93-9ae6/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-xslt/0.0.0>;
+    <http://linkedpipes.com/ontology/x> -1303;
+    <http://linkedpipes.com/ontology/y> -115;
+    <http://purl.org/dc/terms/description> "Chunkinátor";
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "XSLT transformer" .
+  
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>
     a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ffbebe";
@@ -1136,6 +1149,15 @@ Only valid""";
     <http://linkedpipes.com/ontology/x> -887;
     <http://linkedpipes.com/ontology/y> -1317;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Chunked merger" .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/5caf-808e>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/5caf-808e/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0>;
+    <http://linkedpipes.com/ontology/x> -2122;
+    <http://linkedpipes.com/ontology/y> -270;
+    <http://purl.org/dc/terms/description> "2021 Všechno z NKOD";
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL endpoint" .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/62d1-9f19>
     a <http://linkedpipes.com/ontology/Component>;
@@ -1174,6 +1196,7 @@ Only valid""";
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/72ec-8820>
     a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/72ec-8820/configuration>;
+    <http://linkedpipes.com/ontology/disabled> true;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-xslt/0.0.0>;
     <http://linkedpipes.com/ontology/x> -1391;
     <http://linkedpipes.com/ontology/y> 121;
@@ -1192,6 +1215,31 @@ statutární orgán společnosti typy""";
     <http://www.w3.org/2004/02/skos/core#note> "";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct" .
   
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/l-filesToLocal/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 3895;
+    <http://linkedpipes.com/ontology/y> -962;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Files to local" .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-httpGetFiles/0.0.0>;
+    <http://linkedpipes.com/ontology/x> -1688;
+    <http://linkedpipes.com/ontology/y> -224;
+    <http://purl.org/dc/terms/description> "Všechny společnosti";
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "HTTP get list" .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-rdfToFile/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 3701;
+    <http://linkedpipes.com/ontology/y> -962;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "RDF to file" .
+  
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>
     a <http://linkedpipes.com/ontology/Component>;
     <http://linkedpipes.com/ontology/color> "#ffbebe";
@@ -1209,12 +1257,20 @@ Only valid""";
     <http://linkedpipes.com/ontology/color> "#ffbebe";
     <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe/configuration>;
     <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-sparqlConstructChunked/0.0.0>;
-    <http://linkedpipes.com/ontology/x> 1789;
-    <http://linkedpipes.com/ontology/y> -495;
+    <http://linkedpipes.com/ontology/x> 1793;
+    <http://linkedpipes.com/ontology/y> -487;
     <http://purl.org/dc/terms/description> """OWL full to compact
-TODO Typy
 Vymazané společnosti""";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct chunked" .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387>
+    a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-xslt/0.0.0>;
+    <http://linkedpipes.com/ontology/x> -1076;
+    <http://linkedpipes.com/ontology/y> -204;
+    <http://purl.org/dc/terms/description> "Všechny společnosti";
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "XSLT transformer" .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/b3e6-a46c>
     a <http://linkedpipes.com/ontology/Component>;
@@ -1293,8 +1349,7 @@ základní kapitál společnosti typy""";
     <http://linkedpipes.com/ontology/x> 1727;
     <http://linkedpipes.com/ontology/y> -1464;
     <http://purl.org/dc/terms/description> """OWL full to compact
-validFrom
-Only valid""";
+validFrom and validThrough""";
     <http://www.w3.org/2004/02/skos/core#prefLabel> "SPARQL construct chunked" .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/f285-b3ec>
@@ -1322,9 +1377,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/37>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/42b1-b12c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8c53-8ae5> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/42b1-b12c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8c53-8ae5>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 821;
@@ -1343,9 +1398,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/58>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6287-812c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f644-ba60> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6287-812c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f644-ba60>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 687;
@@ -1357,16 +1412,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/d758-9d31>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9042-a9f2>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0c8-9fab> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ad0a-9c50>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4257-b54e> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9042-a9f2>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ad0a-9c50>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 561;
     <http://linkedpipes.com/ontology/y> 38 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0c8-9fab>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4257-b54e>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1441;
@@ -1378,9 +1433,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/39>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/80fe-870e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c788-975d> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/80fe-870e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c788-975d>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 881;
@@ -1399,9 +1454,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/230c-ba2a>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5bfe-8f41> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b6a4-96d2> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5bfe-8f41>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b6a4-96d2>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1763;
@@ -1413,9 +1468,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/42>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5ded-b126> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e79b-ae65> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5ded-b126>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e79b-ae65>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 880;
@@ -1427,6 +1482,13 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/146> .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/1f35-8c7a>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/146>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/2076-923e>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -1441,16 +1503,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/7b09-b3be>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a96e-bc34>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7562-97c7> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9f3f-81d8>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/32c5-b981> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a96e-bc34>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9f3f-81d8>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 563;
     <http://linkedpipes.com/ontology/y> 34 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7562-97c7>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/32c5-b981>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1441;
@@ -1462,16 +1524,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/49>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ffe0-b4ae>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7adb-b098> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d092-8b3a>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c102-8726> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ffe0-b4ae>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d092-8b3a>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 604;
     <http://linkedpipes.com/ontology/y> -1136 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7adb-b098>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c102-8726>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1672;
@@ -1504,16 +1566,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/56>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/01f9-bd20>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ed16-bfb2> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3cde-92f0>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6f28-8b25> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/01f9-bd20>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3cde-92f0>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 578;
     <http://linkedpipes.com/ontology/y> 1467 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ed16-bfb2>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6f28-8b25>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1181;
@@ -1525,9 +1587,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/8>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/f285-b3ec>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7a48-9019> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/642a-b60d> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7a48-9019>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/642a-b60d>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1624;
@@ -1546,9 +1608,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/bc08-b9ad>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7f16-b44e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4d2e-ae1c> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7f16-b44e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4d2e-ae1c>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 879;
@@ -1560,20 +1622,27 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/58>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/933f-889c>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/516c-94fb> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/da67-b4de>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/854c-a6a6> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/933f-889c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/da67-b4de>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 576;
     <http://linkedpipes.com/ontology/y> 1469 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/516c-94fb>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/854c-a6a6>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1181;
     <http://linkedpipes.com/ontology/y> 1469 .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/386f-94b0>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/3f93-9ae6>;
+    <http://linkedpipes.com/ontology/targetBinding> "FilesInput";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/3bd4-869a>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -1581,9 +1650,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/230c-ba2a>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/df8a-895a> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6d0d-a0be> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/df8a-895a>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6d0d-a0be>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1647;
@@ -1595,9 +1664,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/67>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1d38-b62c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c370-89e7> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1d38-b62c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c370-89e7>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 685;
@@ -1609,16 +1678,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/d758-9d31>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1166-8b11>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d08d-9ad1> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1e04-8325>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/07ad-acd1> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1166-8b11>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1e04-8325>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 563;
     <http://linkedpipes.com/ontology/y> 104 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d08d-9ad1>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/07ad-acd1>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1623;
@@ -1644,16 +1713,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/39>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/58ec-a926>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/22af-b6dc> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8af0-bf5a>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/14b0-9678> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/58ec-a926>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8af0-bf5a>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 577;
     <http://linkedpipes.com/ontology/y> 1467 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/22af-b6dc>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/14b0-9678>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1180;
@@ -1665,20 +1734,27 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/54>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2421-ad34>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/94c7-a4f7> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a4cb-bd47>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d4eb-9c2f> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2421-ad34>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a4cb-bd47>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 639;
     <http://linkedpipes.com/ontology/y> -234 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/94c7-a4f7>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d4eb-9c2f>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1261;
     <http://linkedpipes.com/ontology/y> -302 .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/4f01-b024>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/4fcb-b3c6>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -1686,13 +1762,20 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/d569-97b4>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9872-96c6> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9b24-be7d> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9872-96c6>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9b24-be7d>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1622;
     <http://linkedpipes.com/ontology/y> 95 .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/4fd6-a5ac>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/5caf-808e>;
+    <http://linkedpipes.com/ontology/targetBinding> "Configuration";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/544b-847a>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -1700,16 +1783,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/12>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0f52-9089>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6376-afac> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b4d8-9403>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/09b5-9ae4> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0f52-9089>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b4d8-9403>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 606;
     <http://linkedpipes.com/ontology/y> -1136 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6376-afac>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/09b5-9ae4>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1672;
@@ -1728,16 +1811,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/35>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5ff7-85a0>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/45a0-a926> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b0e5-9eb3>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/31e1-95a1> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5ff7-85a0>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b0e5-9eb3>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 574;
     <http://linkedpipes.com/ontology/y> 1473 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/45a0-a926>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/31e1-95a1>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1179;
@@ -1749,9 +1832,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/51>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4a51-b36b> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4cd9-8fb6> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4a51-b36b>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4cd9-8fb6>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 675;
@@ -1763,9 +1846,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/82>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/fd84-86f9> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9dab-98a7> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/fd84-86f9>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9dab-98a7>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 694;
@@ -1784,16 +1867,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/bc08-b9ad>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c807-84aa>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9af9-8002> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a7c0-846b>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/37ef-9656> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c807-84aa>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a7c0-846b>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 579;
     <http://linkedpipes.com/ontology/y> 1471 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9af9-8002>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/37ef-9656>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1180;
@@ -1812,9 +1895,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/91>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e766-a319> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7155-a334> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e766-a319>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7155-a334>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 881;
@@ -1826,16 +1909,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/91>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/60f2-a6ab>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e1f7-961c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/21a0-b41f>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5231-9727> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/60f2-a6ab>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/21a0-b41f>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 577;
     <http://linkedpipes.com/ontology/y> 1469 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e1f7-961c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5231-9727>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1178;
@@ -1847,9 +1930,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/56>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6cc3-b95e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b2dd-9191> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6cc3-b95e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b2dd-9191>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 692;
@@ -1868,13 +1951,20 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/28>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4588-846d> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/433a-bdb1> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4588-846d>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/433a-bdb1>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 687;
     <http://linkedpipes.com/ontology/y> 1738 .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/78ae-a347>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069>;
+    <http://linkedpipes.com/ontology/targetBinding> "FilesInput";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/79a4-9adb>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -1882,16 +1972,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/c0da-aaff>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/84d1-95b3>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/190b-bf9e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/142c-9743>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/922c-9a2d> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/84d1-95b3>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/142c-9743>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 561;
     <http://linkedpipes.com/ontology/y> 38 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/190b-bf9e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/922c-9a2d>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1443;
@@ -1917,9 +2007,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/104>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5344-97f5> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9e36-9c83> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5344-97f5>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9e36-9c83>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1571;
@@ -1945,37 +2035,37 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/26>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e6cb-bea3>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2d53-866d>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7aaa-b0b3>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2116-bce7>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4488-831f> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/75f6-b48d>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bfbb-9a0b>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb82-8260>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8235-a9b3>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7679-9a8f> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e6cb-bea3>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/75f6-b48d>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 879;
     <http://linkedpipes.com/ontology/y> 1301 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2d53-866d>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bfbb-9a0b>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 881;
     <http://linkedpipes.com/ontology/y> 1301 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7aaa-b0b3>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb82-8260>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 3;
     <http://linkedpipes.com/ontology/x> 876;
     <http://linkedpipes.com/ontology/y> 1301 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2116-bce7>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8235-a9b3>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 4;
     <http://linkedpipes.com/ontology/x> 879;
     <http://linkedpipes.com/ontology/y> 1301 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4488-831f>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7679-9a8f>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 5;
     <http://linkedpipes.com/ontology/x> 884;
@@ -1994,9 +2084,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/54>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/016c-8113>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3491-b9ae> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/579a-aeff> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3491-b9ae>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/579a-aeff>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1354;
@@ -2029,16 +2119,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/28>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3119-9e16>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6358-b58e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/41cf-bdbe>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d696-a6cd> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3119-9e16>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/41cf-bdbe>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 572;
     <http://linkedpipes.com/ontology/y> 1467 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6358-b58e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d696-a6cd>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1179;
@@ -2050,9 +2140,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/8>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/6bc2-9b84>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b94e-a9b9> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bf09-8fea> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b94e-a9b9>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bf09-8fea>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1633;
@@ -2078,9 +2168,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/12>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ffa0-9a8b> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c996-8c9a> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ffa0-9a8b>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c996-8c9a>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 546;
@@ -2106,9 +2196,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/60>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/1093-ac1e>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6b1e-8b6e> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ab4e-9e22> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/6b1e-8b6e>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ab4e-9e22>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 942;
@@ -2134,9 +2224,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/60>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/86bc-8fbf> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/adce-a552> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/86bc-8fbf>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/adce-a552>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 821;
@@ -2148,16 +2238,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/103>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3655-9096>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f502-98c9> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ef4f-9e9e>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ba24-a191> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/3655-9096>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ef4f-9e9e>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 751;
     <http://linkedpipes.com/ontology/y> -834 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f502-98c9>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ba24-a191>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1571;
@@ -2183,9 +2273,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/14>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2f7d-8ac9> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9fc6-9d39> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2f7d-8ac9>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9fc6-9d39>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 556;
@@ -2197,16 +2287,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/c0da-aaff>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/052d-bff2>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1e2d-bf76> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/935e-9deb>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d031-b9a5> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/052d-bff2>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/935e-9deb>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 563;
     <http://linkedpipes.com/ontology/y> 106 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1e2d-bf76>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d031-b9a5>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1625;
@@ -2218,16 +2308,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/42>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cefd-966d>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9ef1-a300> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b877-8931>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ef43-bf8c> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cefd-966d>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b877-8931>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 577;
     <http://linkedpipes.com/ontology/y> 1464 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9ef1-a300>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ef43-bf8c>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1181;
@@ -2239,16 +2329,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/14>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1288-a23a>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/88aa-bdcc> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f363-b8de>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/445b-b40a> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1288-a23a>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f363-b8de>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 602;
     <http://linkedpipes.com/ontology/y> -1138 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/88aa-bdcc>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/445b-b40a>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1671;
@@ -2260,16 +2350,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/17>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bb32-9c18>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7459-9c58> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4e93-b9f7>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5612-bddf> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/bb32-9c18>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4e93-b9f7>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 749;
     <http://linkedpipes.com/ontology/y> -836 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7459-9c58>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5612-bddf>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1569;
@@ -2281,20 +2371,27 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/7b09-b3be>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5e50-95fb>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8dc5-b56c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9c8b-87af>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/05cb-9045> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/5e50-95fb>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9c8b-87af>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 567;
     <http://linkedpipes.com/ontology/y> 104 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8dc5-b56c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/05cb-9045>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1621;
     <http://linkedpipes.com/ontology/y> 98 .
+  
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/e24a-b58b>
+    a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04>;
+    <http://linkedpipes.com/ontology/targetBinding> "FilesInput";
+    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/3f93-9ae6> .
   
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/e3a8-a086>
     a <http://linkedpipes.com/ontology/Connection>;
@@ -2302,16 +2399,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/26>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/af83-9c49>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7aff-98e2> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9c86-b884>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1afd-8aef> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/af83-9c49>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9c86-b884>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 575;
     <http://linkedpipes.com/ontology/y> 1467 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7aff-98e2>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1afd-8aef>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1178;
@@ -2323,16 +2420,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/67>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c856-8a8f>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/43fd-b6df> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a5ce-ad5a>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8b08-bb05> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c856-8a8f>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a5ce-ad5a>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 572;
     <http://linkedpipes.com/ontology/y> 1469 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/43fd-b6df>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8b08-bb05>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1174;
@@ -2344,16 +2441,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/70>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1114-9b30>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a0f8-87a9> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7f46-8a3f>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ab65-84dd> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1114-9b30>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/7f46-8a3f>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 608;
     <http://linkedpipes.com/ontology/y> -1136 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a0f8-87a9>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ab65-84dd>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1674;
@@ -2372,16 +2469,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/d569-97b4>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0c3-94be>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9cc3-b9cc> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/feff-a909>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/11fc-887b> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0c3-94be>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/feff-a909>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 563;
     <http://linkedpipes.com/ontology/y> 36 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9cc3-b9cc>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/11fc-887b>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1441;
@@ -2393,9 +2490,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/37>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/dfba-881f> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9cb7-a2f8> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/dfba-881f>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/9cb7-a2f8>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 673;
@@ -2414,9 +2511,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/60>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b40b-b647> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/73e9-b028> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/b40b-b647>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/73e9-b028>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 674;
@@ -2428,9 +2525,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/31>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/954c-a338> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/15af-8830> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/954c-a338>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/15af-8830>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 610;
@@ -2442,16 +2539,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/82>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a341-afbe>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0d5d-ad7a>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4adb-9ec8> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0ff-85ab>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/14e8-ba92> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/0d5d-ad7a>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c0ff-85ab>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 577;
     <http://linkedpipes.com/ontology/y> 1469 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/4adb-9ec8>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/14e8-ba92>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1181;
@@ -2463,16 +2560,16 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/108>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d4e8-837a>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/119d-acc7> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1b31-83ce>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/41a3-a2eb> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/d4e8-837a>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/1b31-83ce>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 751;
     <http://linkedpipes.com/ontology/y> -834 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/119d-acc7>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/41a3-a2eb>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1567;
@@ -2484,9 +2581,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/107>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e5c5-9054> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8915-aa88> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/e5c5-9054>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/8915-aa88>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 1264;
@@ -2498,9 +2595,9 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/35>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/65cd-9b13>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f38b-9ed3> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/900b-a150> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/f38b-9ed3>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/900b-a150>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 692;
@@ -2512,57 +2609,27 @@ Only valid""";
     <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/47>;
     <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
     <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7>;
-    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a95c-9a83>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a80a-a598>,
-      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2840-bc0c> .
+    <http://linkedpipes.com/ontology/vertex> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb91-adf8>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c3bf-b657>,
+      <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ddab-aa02> .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a95c-9a83>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/cb91-adf8>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 1;
     <http://linkedpipes.com/ontology/x> 749;
     <http://linkedpipes.com/ontology/y> 2159 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/a80a-a598>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/c3bf-b657>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 2;
     <http://linkedpipes.com/ontology/x> 1031;
     <http://linkedpipes.com/ontology/y> 1157 .
   
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/2840-bc0c>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/vertex/ddab-aa02>
     a <http://linkedpipes.com/ontology/Vertex>;
     <http://linkedpipes.com/ontology/order> 3;
     <http://linkedpipes.com/ontology/x> 611;
     <http://linkedpipes.com/ontology/y> 899 .
-  
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069>
-    a <http://linkedpipes.com/ontology/Component>;
-    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration>;
-    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-rdfToFile/0.0.0>;
-    <http://linkedpipes.com/ontology/x> 3701;
-    <http://linkedpipes.com/ontology/y> -962;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "RDF to file" .
-  
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/1f35-8c7a>
-    a <http://linkedpipes.com/ontology/Connection>;
-    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
-    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/146>;
-    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
-    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069> .
-  
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33>
-    a <http://linkedpipes.com/ontology/Component>;
-    <http://linkedpipes.com/ontology/configurationGraph> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration>;
-    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/l-filesToLocal/0.0.0>;
-    <http://linkedpipes.com/ontology/x> 3895;
-    <http://linkedpipes.com/ontology/y> -962;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Files to local" .
-  
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/connection/78ae-a347>
-    a <http://linkedpipes.com/ontology/Connection>;
-    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
-    <http://linkedpipes.com/ontology/sourceComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069>;
-    <http://linkedpipes.com/ontology/targetBinding> "FilesInput";
-    <http://linkedpipes.com/ontology/targetComponent> <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/167> {
@@ -2655,7 +2722,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -2743,7 +2810,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -2788,7 +2855,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -2854,11 +2921,13 @@ CONSTRUCT {
   
   ?rZákladníKapitálSplacení :textValue ?vZákladníKapitálSplacení ;
     :typ ?unitZákladníKapitálSplacení .
-  BIND(STRDT(?vZákladníKapitálSplacení, xsd:nonNegativeInteger) AS ?vZákladníKapitálSplaceníDt)
+  #BIND(STRDT(?vZákladníKapitálSplacení, xsd:nonNegativeInteger) AS ?vZákladníKapitálSplaceníDt) #protože to je v OR zprasené, nelze to takhle pěkně typovat, původní záměr byl, že to jsou procenta
+  BIND(STRDT(?vZákladníKapitálSplacení, xsd:string) AS ?vZákladníKapitálSplaceníDt)
 
   ?rZákladníKapitálVklad :textValue ?vZákladníKapitálVklad ;
     :typ ?unitZákladníKapitálVklad .
-  BIND(STRDT(?vZákladníKapitálVklad, xsd:decimal) AS ?vZákladníKapitálVkladDt)
+  #BIND(STRDT(?vZákladníKapitálVklad, xsd:decimal) AS ?vZákladníKapitálVkladDt) #protože to je v OR zprasené, nelze to takhle pěkně typovat, původní záměr byl, že je to částka v penězích
+  BIND(STRDT(?vZákladníKapitálVklad, xsd:string) AS ?vZákladníKapitálVkladDt)
 
   BIND (IRI(CONCAT(STR(?rZákladníKapitálHodnota), \"/má-vklad-do-základního-kapitálu\")) AS ?rZákladníKapitálHodnotaMáVklad)
   BIND (IRI(CONCAT(STR(?rZákladníKapitálVklad), \"/výše-vkladu\")) AS ?rVýšeVkladu)
@@ -2869,7 +2938,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -2914,7 +2983,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -2993,7 +3062,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3037,7 +3106,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3056,7 +3125,8 @@ DELETE {
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/185> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/185> a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/30/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSize> 1;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSizeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#filePredicateControl>
@@ -3067,7 +3137,9 @@ DELETE {
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeType> "text/turtle";
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFail> false;
-    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threads> 12;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/188> {
@@ -3110,13 +3182,14 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/189> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/189> a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/94/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSize> 1;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSizeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#filePredicateControl>
@@ -3127,7 +3200,9 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeType> "text/turtle";
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFail> false;
-    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threads> 12;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/190> {
@@ -3280,7 +3355,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3316,7 +3391,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3375,7 +3450,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3400,7 +3475,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3697,7 +3772,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3742,7 +3817,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3858,7 +3933,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -3909,7 +3984,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -4516,7 +4591,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -4566,7 +4641,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -4631,7 +4706,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -13493,7 +13568,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -13559,7 +13634,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -13603,13 +13678,14 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/234> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/234> a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/11/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSize> 1;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSizeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#filePredicateControl>
@@ -13620,7 +13696,9 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeType> "text/turtle";
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFail> false;
-    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threads> 16;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/235> {
@@ -13716,7 +13794,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14328,10 +14406,10 @@ CONSTRUCT {
     FILTER(?validThrough >= ?vVýmazDatumDt)
 }""";
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#queryControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> true;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14378,6 +14456,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14416,7 +14495,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14450,7 +14529,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14485,6 +14564,35 @@ CONSTRUCT {
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/3f93-9ae6/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/72ec-8820/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-xslt#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#extension> "ttl";
+    <http://plugins.linkedpipes.com/ontology/t-xslt#extensionControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#skipOnError> false;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#skipOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#template> """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" version=\"2.0\">
+	<xsl:output method=\"xml\" encoding=\"UTF-8\" indent=\"yes\"/>
+
+<xsl:template match=\"/\">
+    <xsl:for-each-group select=\"xml/Subjekt\" group-by=\"fn:number(./ico/text()) mod 100\">
+        <xsl:result-document method=\"xml\" encoding=\"UTF-8\" indent=\"yes\" href=\"{current-group()[1]/ico/text()}.xml\">
+            <xml>
+                <xsl:for-each select=\"current-group()\">
+                    <xsl:copy-of select=\".\" />
+                </xsl:for-each>
+            </xml>
+        </xsl:result-document>
+    </xsl:for-each-group>
+</xsl:template>
+
+</xsl:stylesheet>""";
+    <http://plugins.linkedpipes.com/ontology/t-xslt#templateControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7/configuration> {
   <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/47ea-98e7/configuration>
     a <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#Configuration>;
@@ -14508,12 +14616,68 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/4ec3-8f6d/configuration> {
   <http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0/new/1> a <http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration> .
+}
+
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/5caf-808e/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/5caf-808e/configuration>
+    a <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf> false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint> "https://data.gov.cz/sparql";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData> false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query> """PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX httpList: <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#>
+
+CONSTRUCT { 
+<http://localhost/resource/configuration> a httpList:Configuration ;
+    httpList:reference ?downloadURL .
+
+?downloadURL a httpList:Reference ;
+    httpList:fileUri ?strURL ;
+    httpList:fileName ?filename .
+
+} 
+WHERE { 
+  GRAPH ?g {
+    ?dataset a dcat:Dataset ;
+       dcterms:publisher <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064> ;
+       dcat:distribution ?distribution .
+    ?distribution a dcat:Distribution ;
+       dcat:downloadURL ?downloadURL ;
+       dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> .
+
+    FILTER EXISTS {
+      ?dataset dcat:keyword \"2021\"@cs .
+    }
+    FILTER EXISTS {
+      ?dataset dcat:keyword \"Úplný\"@cs .
+    }
+  }
+  BIND(STR(?downloadURL) AS ?strURL)
+  BIND(REPLACE(STR(?downloadURL), \".*/(.*)$\", \"$1\") AS ?filename)
+}""";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication> false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository> false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/62d1-9f19/configuration> {
@@ -14567,6 +14731,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14604,7 +14769,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14668,9 +14833,47 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration>
+    a <http://plugins.linkedpipes.com/ontology/l-filesToLocal#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-filesToLocal#path> "/data/www/soubor";
+    <http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/9f9c-bb04/configuration>
+    a <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#detailLog> true;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#detailLogControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#encodeUrl> false;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#encodeUrlControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#hardRedirect> true;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#hardRedirectControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#retryCountControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#skipOnError> true;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#skipOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#threadsPerGroupControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#timeoutControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#utf8Redirect> false;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#utf8RedirectControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-httpGetFiles#waitTimeControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "or.trig";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "application/trig";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <https://obchodní-rejstřík.stirdata.opendata.cz/obchodní-rejstřík>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a235-b800/configuration> {
@@ -14697,6 +14900,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14721,9 +14925,250 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387/configuration> {
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/acb6-9387/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-xslt#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#extension> "ttl";
+    <http://plugins.linkedpipes.com/ontology/t-xslt#extensionControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#skipOnError> false;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#skipOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#template> """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" xmlns:db=\"http://docbook.org/ns/docbook\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:gen=\"https://data.gov.cz/otevřené-formální-normy/generátor\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\">
+	<xsl:output method=\"text\" encoding=\"UTF-8\" indent=\"yes\"/>
+	<xsl:variable name=\"beIRIPrefix\">https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/registrované-osoby/</xsl:variable>
+	<xsl:template match=\"/\">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
+@prefix schema: &lt;https://schema.org/&gt; .
+@prefix : &lt;https://linked.opendata.cz/temp/&gt; .
+
+<xsl:apply-templates select=\"*\" />
+	</xsl:template>
+	
+	<xsl:template match=\"Subjekt\">
+		<xsl:variable name=\"ico\" select=\"fn:concat(fn:substring('00000000',fn:string-length(./ico/text())+1), ./ico/text())\"/>
+		<xsl:variable name=\"be\" select=\"fn:concat($beIRIPrefix, $ico)\" />
+<!--		<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+			<xsl:with-param name=\"subject\" select=\"$be\" />
+			<xsl:with-param name=\"predicate\">:ico</xsl:with-param>
+			<xsl:with-param name=\"data\" select=\"$ico\" />
+		</xsl:call-template>
+		<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+			<xsl:with-param name=\"subject\" select=\"$be\" />
+			<xsl:with-param name=\"predicate\">:nazev</xsl:with-param>
+			<xsl:with-param name=\"data\" select=\"./nazev/text()\" />
+		</xsl:call-template>-->
+		<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+			<xsl:with-param name=\"subject\" select=\"$be\" />
+			<xsl:with-param name=\"predicate\">:zapisDatum</xsl:with-param>
+			<xsl:with-param name=\"data\" select=\"./zapisDatum/text()\" />
+		</xsl:call-template>
+		<xsl:if test=\"./vymazDatum\">
+			<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+				<xsl:with-param name=\"subject\" select=\"$be\" />
+				<xsl:with-param name=\"predicate\">:vymazDatum</xsl:with-param>
+				<xsl:with-param name=\"data\" select=\"./vymazDatum/text()\" />
+			</xsl:call-template>
+		</xsl:if>
+				
+		<xsl:call-template name=\"transformujUdaje\">
+			<xsl:with-param name=\"udaje\" select=\"./udaje\" />
+			<xsl:with-param name=\"subject\" select=\"$be\" />
+		</xsl:call-template>
+		
+	</xsl:template>
+	
+	<xsl:template name=\"transformujUdaje\">
+		<xsl:param name=\"udaje\" />
+		<xsl:param name=\"subject\" />
+		<xsl:for-each select=\"$udaje/Udaj\">
+			<xsl:variable name=\"typUdaje\" select=\"./udajTyp/kod/text()\" />
+			<xsl:variable name=\"countWithTyp\" select=\"fn:count(../Udaj[udajTyp/kod/text()=$typUdaje])\" />
+			<xsl:variable name=\"object\">
+				<xsl:choose>
+					<xsl:when test=\"$countWithTyp>1\">
+						<xsl:variable name=\"countWithTypPrev\" select=\"fn:count(./preceding-sibling::Udaj[udajTyp/kod/text()=$typUdaje])\" />
+						<xsl:value-of select=\"fn:concat($subject, '/', ./udajTyp/kod/text(), '/', $countWithTypPrev , '/', ./zapisDatum)\" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select=\"fn:concat($subject, '/', ./udajTyp/kod/text(), '/', ./zapisDatum)\" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
+		
+			<xsl:call-template name=\"OUTPUT_OBJECT_TRIPLE\">
+				<xsl:with-param name=\"subject\" select=\"$subject\" />
+				<xsl:with-param name=\"predicate\" select=\"fn:concat(':', ./udajTyp/kod/text())\" />
+				<xsl:with-param name=\"object\" select=\"$object\" />
+			</xsl:call-template>
+			
+			<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+				<xsl:with-param name=\"subject\" select=\"$object\" />
+				<xsl:with-param name=\"predicate\">schema:validFrom</xsl:with-param>
+				<xsl:with-param name=\"data\" select=\"./zapisDatum/text()\" />
+			</xsl:call-template>
+			
+			<xsl:if test=\"./vymazDatum\">
+				<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+					<xsl:with-param name=\"subject\" select=\"$object\" />
+					<xsl:with-param name=\"predicate\">schema:validThrough</xsl:with-param>
+					<xsl:with-param name=\"data\" select=\"./vymazDatum/text()\" />
+				</xsl:call-template>
+			</xsl:if>
+			
+			<xsl:for-each select=\"./*[fn:name()!='hlavicka' and fn:name()!='zapisDatum' and fn:name()!='vymazDatum' and fn:name()!='udajTyp']\">
+
+				<xsl:choose>
+					<xsl:when test=\"fn:name()='hodnotaText'\">
+						<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+							<xsl:with-param name=\"subject\" select=\"$object\" />
+							<xsl:with-param name=\"predicate\">rdf:value</xsl:with-param>
+							<xsl:with-param name=\"data\" select=\"./text()\" />
+						</xsl:call-template>
+					</xsl:when>
+					<xsl:when test=\"fn:name()!='podudaje' and fn:name()!='hodnotaText'\">
+						<xsl:call-template name=\"transformStructuredValue\">
+							<xsl:with-param name=\"node\" select=\".\" />
+							<xsl:with-param name=\"subject\" select=\"$object\"/>
+						</xsl:call-template>
+					</xsl:when>
+					<xsl:when test=\"fn:name()='podudaje'\">
+						<xsl:call-template name=\"transformujUdaje\">
+							<xsl:with-param name=\"udaje\" select=\".\" />
+							<xsl:with-param name=\"subject\" select=\"$object\" />
+						</xsl:call-template>
+					</xsl:when>
+				</xsl:choose>
+
+			</xsl:for-each>
+			
+		</xsl:for-each>		
+	</xsl:template>
+	
+	<xsl:template name=\"transformStructuredValue\">
+		<xsl:param name=\"node\" />
+		<xsl:param name=\"subject\" />
+		<xsl:choose>
+			<xsl:when test=\"./*\">
+				<xsl:variable name=\"object\" select=\"fn:concat($subject, '/', fn:name())\" />
+				<xsl:call-template name=\"OUTPUT_OBJECT_TRIPLE\">
+					<xsl:with-param name=\"subject\" select=\"$subject\" />
+					<xsl:with-param name=\"predicate\" select=\"fn:concat(':', fn:name())\" />
+					<xsl:with-param name=\"object\" select=\"$object\" />
+				</xsl:call-template>
+				<xsl:for-each select=\"./*\">
+					<xsl:call-template name=\"transformStructuredValue\">
+						<xsl:with-param name=\"node\" select=\".\" />
+						<xsl:with-param name=\"subject\" select=\"$object\" />
+					</xsl:call-template>
+				</xsl:for-each>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name=\"OUTPUT_DATA_TRIPLE\">
+					<xsl:with-param name=\"subject\" select=\"$subject\" />
+					<xsl:with-param name=\"predicate\" select=\"fn:concat(':', fn:name())\" />
+					<xsl:with-param name=\"data\" select=\"./text()\" />
+				</xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<xsl:template name=\"OUTPUT_OBJECT_TRIPLE\">
+		<xsl:param name=\"subject\" />
+		<xsl:param name=\"predicate\" />
+		<xsl:param name=\"object\" />
+		
+		<xsl:if test=\"$object\">
+		
+			<xsl:text>&lt;</xsl:text>
+			<xsl:value-of select=\"$subject\" />
+			<xsl:text>&gt; </xsl:text>
+			<xsl:value-of select=\"$predicate\" />
+			<xsl:text> &lt;</xsl:text>
+			<xsl:value-of select=\"$object\" />
+			<xsl:text>&gt; .
+</xsl:text>
+
+		</xsl:if>
+		
+	</xsl:template>
+	
+	<xsl:template name=\"OUTPUT_TYPE_TRIPLE\">
+		<xsl:param name=\"subject\" />
+		<xsl:param name=\"type\" />
+		
+		<xsl:text>&lt;</xsl:text>
+		<xsl:value-of select=\"$subject\" />
+		<xsl:text>&gt; a </xsl:text>
+		<xsl:value-of select=\"$type\" />
+		<xsl:text> .
+</xsl:text>
+	</xsl:template>
+	
+	<xsl:template name=\"OUTPUT_SAME_AS_TRIPLE\">
+		<xsl:param name=\"subject\" />
+		<xsl:param name=\"object\" />
+		
+		<xsl:text>&lt;</xsl:text>
+		<xsl:value-of select=\"$subject\" />
+		<xsl:text>&gt; owl:sameAs </xsl:text>
+		<xsl:text>&lt;</xsl:text>
+		<xsl:value-of select=\"$object\" />
+		<xsl:text>&gt; .
+</xsl:text>
+	</xsl:template>
+	
+	<xsl:template name=\"OUTPUT_DATA_TRIPLE\">
+		<xsl:param name=\"subject\" />
+		<xsl:param name=\"predicate\" />
+		<xsl:param name=\"data\" />
+		<xsl:param name=\"type\" />
+		<xsl:param name=\"lang\" />
+		
+		<xsl:for-each select=\"$data\">
+			<xsl:variable name=\"data-item\" select=\"normalize-space(replace(replace(., '\\\\', '\\\\\\\\'), '&quot;', '\\\\&quot;'))\" />
+		  
+			<xsl:if test=\"string-length($data-item) &gt; 0\">
+			
+				<xsl:text>&lt;</xsl:text>
+				<xsl:value-of select=\"$subject\" />
+				<xsl:text>&gt; </xsl:text>
+				<xsl:value-of select=\"$predicate\" />
+				<xsl:text> \"</xsl:text>
+				<xsl:value-of select=\"$data-item\" />
+				<xsl:text>\"</xsl:text>
+				<xsl:choose>
+					<xsl:when test=\"$lang\">
+						<xsl:text>@</xsl:text>
+						<xsl:value-of select=\"$lang\" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:if test=\"$type\">
+							<xsl:text>\"^^</xsl:text>
+							<xsl:value-of select=\"$type\" />
+						</xsl:if>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:text> .
+</xsl:text>
+			
+			</xsl:if>
+  		
+		</xsl:for-each>
+	
+	</xsl:template>
+		
+	<xsl:template match=\"text()\" />
+</xsl:stylesheet>""";
+    <http://plugins.linkedpipes.com/ontology/t-xslt#templateControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-xslt#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/b3e6-a46c/configuration> {
@@ -14757,7 +15202,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14799,7 +15244,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14843,7 +15288,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14926,7 +15371,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -14981,7 +15426,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15004,16 +15449,19 @@ PREFIX z: <https://slovník.gov.cz/základní/pojem/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
-  ?rSpolečnost schema:validFrom ?vZápisDatumDt .
+  ?rSpolečnost schema:validFrom ?vZápisDatumDt ;
+    lvř:den-vzniku-právnické-osoby ?vZápisDatumDt ;
+    schema:validThrough ?vVýmazDatumDt ;
+    lvř:den-zániku-právnické-osoby ?vVýmazDatumDt .
 } WHERE {
   ?rZápisDatum a lvř:den-vzniku-právnické-osoby ;
     rdf:value ?vZápisDatumDt ;
     z:je-vlastností ?rSpolečnost .
   
-  ?rSpolečnost schema:validFrom ?vZápisDatumDt .
-  
-  FILTER NOT EXISTS {
-    ?rSpolečnost schema:validThrough ?vVýmazDatumDt .
+  OPTIONAL {
+    ?rVýmazDatum a lvř:den-zániku-právnické-osoby ;
+      rdf:value ?vVýmazDatumDt ;
+      z:je-vlastností ?rSpolečnost .
   }
   
 }""";
@@ -15021,6 +15469,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15057,7 +15506,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15126,7 +15575,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15164,7 +15613,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15177,24 +15626,27 @@ CONSTRUCT {
       <http://plugins.linkedpipes.com/resource/configuration/None>;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#query> """PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX schema: <https://schema.org/>
-PREFIX : <https://linked.opendata.cz/temp/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX lok: <https://slovník.gov.cz/legislativní/sbírka/90/2012/pojem/>
 PREFIX lvř: <https://slovník.gov.cz/legislativní/sbírka/304/2013/pojem/>
 PREFIX loz: <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/>
 PREFIX lzr: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
 PREFIX d: <https://slovník.gov.cz/datový/obchodní-rejstřík/pojem/>
 PREFIX z: <https://slovník.gov.cz/základní/pojem/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX : <https://linked.opendata.cz/temp/>
 
 CONSTRUCT {
   ?rPrávníFormaJakoPoložkaČíselníku a skos:Concept ;
     skos:prefLabel ?vlPrávníForma ;
+    skos:notation ?vPrávníForma ;
     skos:inScheme <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/číselník-právních-forem>
 } WHERE {
   ?rSpolečnost :PRAVNI_FORMA ?rPrávníForma .
-  ?rPrávníForma rdf:value ?vPrávníForma .
-  BIND(STRLANG(?vPrávníForma, \"cs\") AS ?vlPrávníForma)
+  ?rPrávníForma :pravniForma ?rPrávníFormaDetail .
+  ?rPrávníFormaDetail :kod ?vPrávníForma ;
+                      :nazev ?vlPrávníFormaNázev .
+  BIND(STRLANG(?vlPrávníFormaNázev, \"cs\") AS ?vlPrávníForma)
   
   BIND(IRI(CONCAT(\"https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/\", STR(?vPrávníForma))) AS ?rPrávníFormaJakoPoložkaČíselníku)
 }""";
@@ -15202,7 +15654,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15251,7 +15703,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15530,7 +15982,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -15728,7 +16180,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -23628,7 +24080,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -23682,7 +24134,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -23720,7 +24172,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -23784,7 +24236,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
 }
@@ -23834,25 +24286,7 @@ CONSTRUCT {
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail> false;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl>
       <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 8;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads> 12;
     <http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl>
       <http://plugins.linkedpipes.com/resource/configuration/None> .
-}
-
-<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/a1e8-a069/configuration>
-    a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "or.trig";
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "application/trig";
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <https://obchodní-rejstřík.stirdata.opendata.cz/obchodní-rejstřík>;
-    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
-}
-
-<https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1623399505138/component/90d9-ac33/configuration>
-    a <http://plugins.linkedpipes.com/ontology/l-filesToLocal#Configuration>;
-    <http://plugins.linkedpipes.com/ontology/l-filesToLocal#path> "/data/www/soubor";
-    <http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
 }

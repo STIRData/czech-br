@@ -22,7 +22,7 @@ We use the XML representation for further transformation.
 
 ## Transformation from Semantic Government Vocabulary version to STIRData model
 ![LinkedPipes ETL pipeline transforming Czech Business Registry to STIRData version](assets/images/ebg-pipeline.webp)
-[This pipeline](assets/pipelines/ebg.jsonld) pipeline converts the result of the previous one to the [STIRData EBG-based model](https://docs.google.com/document/d/13CqFmv-sjuJew_Cto4Ibr0ZQoCr21WHwm5GT87-n6_8/edit), so far using a single SPARQL query.
+[This pipeline](assets/pipelines/ebg.jsonld) pipeline converts the result of the previous one to the [STIRData EBG-based model](https://stirdata.github.io/data-specification/), so far using a single SPARQL query.
 Then, the mapping to NUTS codes via a Czech cadastre dataset is done using Federated SPARQL query to the Charles University RDF version of the Czech cadastre, resulting in a mapping in [RDF TriG](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg-nuts.trig).
 Finally, the results of the transformation are dumped to [RDF TriG](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig) and loaded to Apache Jena Fuseki instance using `tdb2.tdbloader`.
 Also, an [HDT dump](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.trig) is created and the Linked Data Fragments server gets pinged to reload the HDT file.

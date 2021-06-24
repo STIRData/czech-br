@@ -595,9 +595,43 @@ WHERE {
       ?adresa_sídla zr:má-název-okresu ?název_okresu .
   }
   
-  VALUES (?forma_mezinárodní ?forma_or) {
-    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/6CQN> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/sro>) 
-    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/9HLU> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/as>) 
+  OPTIONAL {
+      VALUES (?forma_mezinárodní ?forma_or) {
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/G2I3> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/pobocny_spolek>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/CATU> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/spolek>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/Q25I> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/odbor_organizace>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/9HLU> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/sro>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/9RVC> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/dr>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/QS6A> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/nad_f>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/5KU5> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/vos>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/IQ9O> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/svj>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/3G3D> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/nad>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/ZQO8> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/evr_spol>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/747U> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/ks>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/MBUU> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/prisp>) #!! \"zřízená územním samosprávním celkem\"
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/6CQN> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/as>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/VIE3> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/n_zaj_sdr_po>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/QJ0F> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/ustav>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/Q25I> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/org_zam>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/RBGQ> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/evr_hzs>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/CZUA> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/zahr_fos>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/LPCQ> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/m_odbor_org>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/T1FT> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/evr_dr_spol>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/VQU7> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/os_z_nad>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/WUFK> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/oz>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/VQU7> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/os_z_nad_f>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/P3YF> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/p_odbor_org>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/Q25I> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/odbor_org>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/BL4B> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/ops>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/7OZQ> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/zaj_sdr>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/95G8> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/fo>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/VIE3> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/zaj_sdr_po>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/TNBA> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/os_zpo>)
+#    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/ostatni>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/PQJE> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/nevlad_org>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/9XDB> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/os>)
+    (<https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/GLEIF/CZ/U95A> <https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselník/obchodní-rejstřík/právní-formy/položka/os_zfo>)
+    }
   }
   
   BIND(IRI(CONCAT(STR(?osoba), \"/registrace\")) AS ?reg)
