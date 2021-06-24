@@ -17,14 +17,14 @@ We use the XML representation for further transformation.
 3. The RDF is further refined based on different aspects of the company records. The blue parts are common for all company types. The yellow-green parts are specific to joint-stock companies, the pink parts are specific to the limited liability companies. The green parts on top generate codelists from the data.
 4. The full ontological representation is then compacted to form a LOD-style RDF version of the data. This is the version to be published by the Business registry, if we succeed in convincing them. Therefore, this is the source of the transformation to the STIRData EBG-based model.
 5. Initially, we loaded the data into Apache Jena Fuseki instance via HTTP, which proved not to be viable for the whole dataset of 700 000 companies. Instead, we create an RDF dump.
-6. The RDF dump is then loaded into Apache Jena Fuseki instance via the `tdb2.tdbloader` Apache Jena tool.
+6. The RDF dump is then [loaded to Apache Jena Fuseki](assets/scripts/update-fuseki.sh) instance via the `tdb2.tdbloader` Apache Jena tool.
 7. The whole process takes approx. 11 hours to complete.
 
 ## Transformation from Semantic Government Vocabulary version to STIRData model
 ![LinkedPipes ETL pipeline transforming Czech Business Registry to STIRData version](assets/images/ebg-pipeline.webp)
 [This pipeline](assets/pipelines/ebg.jsonld) pipeline converts the result of the previous one to the [STIRData EBG-based model](https://stirdata.github.io/data-specification/), so far using a single SPARQL query.
 Then, the mapping to NUTS codes via a Czech cadastre dataset is done using Federated SPARQL query to the Charles University RDF version of the Czech cadastre, resulting in a mapping in [RDF TriG](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg-nuts.trig).
-Finally, the results of the transformation are dumped to [RDF TriG](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig) and loaded to Apache Jena Fuseki instance using `tdb2.tdbloader`.
+Finally, the results of the transformation are dumped to [RDF TriG](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig) and [loaded to Apache Jena Fuseki](assets/scripts/update-fuseki.sh) instance using `tdb2.tdbloader`.
 Also, an [HDT dump](https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.trig) is created and the Linked Data Fragments server gets pinged to reload the HDT file.
 The whole process takes approx. 3 hours to complete.
 
