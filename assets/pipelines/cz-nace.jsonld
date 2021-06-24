@@ -70,9 +70,12 @@
 }
 
 <https://stirdata.opendata.cz/etl/resources/pipelines/1624542093927/12> {
-  <https://stirdata.opendata.cz/etl/resources/pipelines/1624542093927/12> a <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration>;
-    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query> """PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+  <https://stirdata.opendata.cz/etl/resources/pipelines/1624542093927/3/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query> """PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX : <urn:>
+PREFIX stir: <https://lod.stirdata.eu/nace/ont/>
 
 CONSTRUCT { 
   ?cs a skos:ConceptScheme ;
@@ -83,7 +86,11 @@ CONSTRUCT {
     skos:altLabel ?label_zkr_cs ;
     skos:notation ?kod ;
     skos:inScheme ?cs ;
-    skos:broader ?broader .
+    stir:level ?length ;
+    skos:broader ?broader ;
+    skos:exactMatch ?eunace .
+  
+?broader skos:narrower ?s .
 } 
 WHERE { 
   ?s :CHODNOTA ?kod ;
@@ -93,8 +100,17 @@ WHERE {
   OPTIONAL {
     ?s :NADVAZ ?nad
   }
+  
   BIND(STRLANG(?label,\"cs\") AS ?label_cs)
   BIND(STRLANG(?label_zkr,\"cs\") AS ?label_zkr_cs)
+  BIND(STRLEN(?kod) AS ?length)
+
+  OPTIONAL {
+    BIND(IF(STRLEN(?kod) < 3, ?kod, CONCAT(SUBSTR(?kod, 1, 2), \".\", SUBSTR(?kod, 3, STRLEN(?kod)))) AS ?eukod)
+    BIND(IRI(CONCAT(\"https://lod.stirdata.eu/nace/nace-rev2/code/\", ?eukod)) AS ?eunace)
+    FILTER(?length < 5)
+  }
+      
   BIND(IRI(\"https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselníky/nace-cz\") as ?cs)
   BIND(IRI(CONCAT(STR(?cs), \"/položky/\", ?nad)) AS ?broader)
 }""";
