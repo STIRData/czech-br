@@ -1,0 +1,294 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075",
+    "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/profile" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/profile/default"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Load to Fuseki"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/l-filesToLocal/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "925"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "189"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files to local"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-filesFilter/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "476"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "191"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files filter"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cf7e-8714",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cf7e-8714/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-filesFromLocal/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "265"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "200"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files from local"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-jenaTdbLoader/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "664"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "196"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Jena TDB Loader"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/f176-af57",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/f176-af57/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1113"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "192"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Webhook to restart\nFuseki"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "HTTP get"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/connection/1adf-a114",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cf7e-8714"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/connection/2326-a64c",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/connection/b867-9dbd",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/connection/c96f-a63a",
+    "@type" : [ "http://linkedpipes.com/ontology/RunAfter" ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/f176-af57"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/profile/default",
+    "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
+    "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/l-filesToLocal#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#directoryPermissions" : [ {
+      "@value" : "rwxr-xr-x"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#directoryPermissionsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#filePermissions" : [ {
+      "@value" : "rw-rw-r--"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#filePermissionsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
+      "@value" : "/data/fuseki/databases/cz-br"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cd78-a52a/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-filesFilter#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-filesFilter#fileNamePattern" : [ {
+      "@value" : "^.*.trig$"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesFilter#fileNamePatternControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cecc-886f/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cf7e-8714/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/cf7e-8714/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-jenaTdbLoader#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-jenaTdbLoader#loader" : [ {
+      "@value" : "parallel"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jenaTdbLoader#loaderControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jenaTdbLoader#location" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jenaTdbLoader#locationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/d7e0-908f/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/f176-af57/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName" : [ {
+      "@value" : "response.txt"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
+      "@value" : "http://localhost/deploy/fuseki.php"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1626326702075/component/f176-af57/configuration"
+} ]

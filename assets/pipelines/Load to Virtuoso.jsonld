@@ -1,0 +1,446 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391",
+    "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/profile" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/2"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Load to Virtuoso"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/2",
+    "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
+    "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9176-8a0e",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9176-8a0e/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/x-virtuoso/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "548"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "394"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "nace-cz.trig"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9e4e-b2c5",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9e4e-b2c5/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/x-virtuoso/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "548"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "194"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "or.trig"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/a688-8f78",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/a688-8f78/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/x-virtuoso/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "548"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "594"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "or-ebg.trig"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e384-bbc3",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e384-bbc3/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/x-virtuoso/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "548"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "294"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "or-ebg-nace.trig"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso"
+    } ]
+  }, {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e557-9465",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e557-9465/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/x-virtuoso/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "548"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "494"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "or-ebg-nuts.trig"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9176-8a0e/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "nace-cz.trig"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://obchodní-rejstřík.stirdata.opendata.cz/nace"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9176-8a0e/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9e4e-b2c5/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "or.trig"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://obchodní-rejstřík.stirdata.opendata.cz/obchodní-rejstřík"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/9e4e-b2c5/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/a688-8f78/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "or-ebg.trig"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://obchodní-rejstřík.stirdata.opendata.cz/ebg"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/a688-8f78/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e384-bbc3/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "or-ebg-nace.trig"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://obchodní-rejstřík.stirdata.opendata.cz/ebg/nace"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e384-bbc3/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e557-9465/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/www/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "or-ebg-nuts.trig"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://obchodní-rejstřík.stirdata.opendata.cz/ebg/nuts"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1649342347391/component/e557-9465/configuration"
+} ]

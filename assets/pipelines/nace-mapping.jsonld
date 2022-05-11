@@ -220,7 +220,7 @@
   "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947"
 }, {
   "@graph" : [ {
-    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947/14",
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947/5/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#deduplication" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -230,7 +230,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#query" : [ {
-      "@value" : "PREFIX rov: <http://www.w3.org/ns/regorg#>\nCONSTRUCT { \n  ?s rov:orgActivity ?nace .\n} \nWHERE { \n  ?s <file://RES_PF_NACE.csv#HODN> ?kod.\n  BIND(IRI(CONCAT(\"https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselníky/nace-cz/položky/\",?kod)) AS ?nace)\n}"
+      "@value" : "PREFIX rov: <http://www.w3.org/ns/regorg#>\nCONSTRUCT { \n  ?s rov:orgActivity ?nace .\n} \nWHERE { \n  ?s <file://res_pf_nace.csv#HODN> ?kod.\n  BIND(IRI(CONCAT(\"https://obchodní-rejstřík.stirdata.opendata.cz/zdroj/číselníky/nace-cz/položky/\",?kod)) AS ?nace)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -318,7 +318,7 @@
   "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947/16"
 }, {
   "@graph" : [ {
-    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947/19",
+    "@id" : "https://stirdata.opendata.cz/etl/resources/pipelines/1624542068947/3/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -334,7 +334,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "https://www.czso.cz/staticke/data/otevrena_data/res_test/res_pf_nace.csv"
+      "@value" : "https://opendata.czso.cz/data/od_org03/res_pf_nace.csv"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
